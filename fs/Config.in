@@ -1,0 +1,6 @@
+menu "Core image options"
+
+source "fs/ext2/Config.in"
+source "fs/tar/Config.in"
+
+endmenu
