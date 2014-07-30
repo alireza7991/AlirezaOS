@@ -1,0 +1,46 @@
+Alireza OS -- An advanced operating system for android-based smartphones
+
+    Copyright (C) 2014 Alireza Forouzandeh Nezhad <alirezafn@gmx.us>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+ 1- About:
+
+ 	AlirezaOS is an operating system, made to boot on android using a loader app. it brings power of a professional desktop linux distribution to an android-based smartphone. it should satisfy linux advanced or curious users who want to try new facilities in their mobile or use their phones like their PCs. With AlirezaOS you can setup a http/ftp server, host a mysql database, hack a server, compile kernel, manage git/svn/hg/... projects, host/use virtual privte networks, convert videos/pictures/musics, edit pictures, connect to ssh/rsh, manipulate ntfs/fat/exfat/ext partitions, write codes, manage almost all type of archives, write/run programs in php/lua/python/C/C++/Assembly/Ruby/TCL/Java/Javascript, ... on your android device !
+
+ 	AlirezaOS supports X86, X86_64, ARMv7 (cortex a7/8/9/12/15), ARMv8 (AArch64), SPARC proccessors.
+
+ 2- Compiling:
+
+ 	- First download project as zip/ clone it with git.
+ 	- Go to the folder, run this command in terminal:
+
+ 		make android_a8_neon_defconfig
+
+ 	(This is an example, you should use the appropriate config for your target. Run "make help" for more info)
+
+ 	-Now run this command to download sources, which are about 500-700 MB:
+
+ 		make source
+
+ 	-And finally run this to generate alirezaos-core.zip:
+
+ 		make
+ 		make release
+
+3- Credits:
+
+	- Buildroot Project: for the build system
+	- Developers and owners of all packages which has been implemented in this project.
+
+4- Contact/Mailing list:
+
+	If you want to ask about project or report a bug or sugession, mail <alirezafn @ gmx.us>
